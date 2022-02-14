@@ -45,7 +45,7 @@ function FeedbackForm({handleAdd}) {
                 </RatingSelect>
                 <div className='input-group'>
                     <input type='text' placeholder='Write a review' onChange={handleTextChange} value={text}></input>
-                    <Button type='submit' isDisabled={btnDisabled}>Send</Button>
+                    <Button type='submit' isDisabled={btnDisabled} >Send</Button>
                 </div>
                 {message && <div className='message'>{message}</div>}
             </form>
